@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="deliverymanagement-application-service" />
+        <module name="deliverymanagement-container" />
+        <module name="deliverymanagement-core-domain" />
+        <module name="deliverymanagement-dataaccess" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="deliverymanagement-domain-core" target="18" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="deliverymanagement" options="-parameters" />
+      <module name="deliverymanagement-application-service" options="-parameters" />
+      <module name="deliverymanagement-container" options="-parameters" />
+      <module name="deliverymanagement-core-domain" options="-parameters" />
+      <module name="deliverymanagement-dataaccess" options="-parameters" />
+      <module name="deliverymanagement-domain" options="-parameters" />
+      <module name="deliverymanagement-domain-core" options="-parameters" />
+    </option>
+  </component>
+</project>
