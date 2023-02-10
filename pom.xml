@@ -20,7 +20,7 @@
         <module>deliverymanagement-domain</module>
     </modules>
     <properties>
-        <java.version>18</java.version>
+        <java.version>17</java.version>
     </properties>
 
     <dependencies>
@@ -46,7 +46,7 @@
                 <artifactId>maven-compiler-plugin</artifactId>
                 <version>${maven-compiler-plugin.version}</version>
                 <configuration>
-                    <release>18</release>
+                    <release>17</release>
                 </configuration>
             </plugin>
 

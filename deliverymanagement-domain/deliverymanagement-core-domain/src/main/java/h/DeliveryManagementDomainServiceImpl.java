@@ -1,4 +1,4 @@
-package com.delivery.management.domain.core;
+package h;
 
 public class DeliveryManagementDomainServiceImpl implements DeliveryManagementDomainService{
 }

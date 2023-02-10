@@ -1,4 +1,4 @@
-package com.delivery.management.domain.core.base.entity;
+package h.base.entity;
 
 import java.util.Objects;
 

@@ -1,4 +1,4 @@
-package com.delivery.management.domain.core.base.exception;
+package h.base.exception;
 
 public class DomainException extends RuntimeException {
 
