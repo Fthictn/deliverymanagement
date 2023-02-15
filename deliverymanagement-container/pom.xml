@@ -17,4 +17,31 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
 
+    <dependencies>
+        <dependency>
+            <groupId>com.deliverymanagement</groupId>
+            <artifactId>deliverymanagement-core-domain</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.deliverymanagement</groupId>
+            <artifactId>deliverymanagement-application-service</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.deliverymanagement</groupId>
+            <artifactId>deliverymanagement-application</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.deliverymanagement</groupId>
+            <artifactId>deliverymanagement-dataaccess</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-test</artifactId>
+        </dependency>
+    </dependencies>
+
 </project>

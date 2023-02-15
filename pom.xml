@@ -18,15 +18,50 @@
         <module>deliverymanagement-container</module>
         <module>deliverymanagement-dataaccess</module>
         <module>deliverymanagement-domain</module>
+        <module>deliverymanagement-application</module>
     </modules>
     <properties>
         <java.version>17</java.version>
+        <project.version>0.0.1-SNAPSHOT</project.version>
     </properties>
 
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>com.deliverymanagement</groupId>
+                <artifactId>deliverymanagement-application-service</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.deliverymanagement</groupId>
+                <artifactId>deliverymanagement-core-domain</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.deliverymanagement</groupId>
+                <artifactId>deliverymanagement-application</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.deliverymanagement</groupId>
+                <artifactId>deliverymanagement-dataaccess</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+        </dependencies>
+
+    </dependencyManagement>
+
     <dependencies>
-
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <scope>provided</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-logging</artifactId>
+        </dependency>
     </dependencies>
-
     <build>
         <plugins>
             <plugin>
