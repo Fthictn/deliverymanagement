@@ -12,7 +12,7 @@ import java.util.Objects;
 @AllArgsConstructor
 @Table(name = "delivery_points")
 @Entity
-public class DeliveryPoint {
+public class DeliveryPointEntity {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -28,7 +28,7 @@ public class DeliveryPoint {
     public boolean equals(Object o) {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
-        DeliveryPoint that = (DeliveryPoint) o;
+        DeliveryPointEntity that = (DeliveryPointEntity) o;
         return id == that.id;
     }
 

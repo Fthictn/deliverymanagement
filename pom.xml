@@ -19,6 +19,7 @@
         <module>deliverymanagement-dataaccess</module>
         <module>deliverymanagement-domain</module>
         <module>deliverymanagement-application</module>
+        <module>infrastructure</module>
     </modules>
     <properties>
         <java.version>17</java.version>

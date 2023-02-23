@@ -30,7 +30,7 @@ public class BagEntity {
 
     @ManyToOne(cascade = CascadeType.ALL)
     @JoinColumn(name = "delivery_point_id")
-    private DeliveryPoint deliveryPoint;
+    private DeliveryPointEntity deliveryPointEntity;
 
     @Override
     public boolean equals(Object o) {
